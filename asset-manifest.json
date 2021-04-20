@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/2104_wearcoord-front/static/css/main.4459a69a.chunk.css",
-    "main.js": "/2104_wearcoord-front/static/js/main.5a292468.chunk.js",
-    "main.js.map": "/2104_wearcoord-front/static/js/main.5a292468.chunk.js.map",
+    "main.js": "/2104_wearcoord-front/static/js/main.4dbd3ea4.chunk.js",
+    "main.js.map": "/2104_wearcoord-front/static/js/main.4dbd3ea4.chunk.js.map",
     "runtime-main.js": "/2104_wearcoord-front/static/js/runtime-main.0318c308.js",
     "runtime-main.js.map": "/2104_wearcoord-front/static/js/runtime-main.0318c308.js.map",
     "static/css/2.0c97cfcb.chunk.css": "/2104_wearcoord-front/static/css/2.0c97cfcb.chunk.css",
@@ -16,6 +16,10 @@
     "static/js/2.51c852f6.chunk.js.LICENSE.txt": "/2104_wearcoord-front/static/js/2.51c852f6.chunk.js.LICENSE.txt",
     "static/media/aozoraya-sp_10142639.0d15c3e5.png": "/2104_wearcoord-front/static/media/aozoraya-sp_10142639.0d15c3e5.png",
     "static/media/chitosesports-b_10016758.72e43f9e.png": "/2104_wearcoord-front/static/media/chitosesports-b_10016758.72e43f9e.png",
+    "static/media/chitosesports-b_10020639.ae5903ce.png": "/2104_wearcoord-front/static/media/chitosesports-b_10020639.ae5903ce.png",
+    "static/media/chitosesports_10030744gray.de46054e.png": "/2104_wearcoord-front/static/media/chitosesports_10030744gray.de46054e.png",
+    "static/media/chitosesports_10030745.5b95510f.png": "/2104_wearcoord-front/static/media/chitosesports_10030745.5b95510f.png",
+    "static/media/chitosesports_10043147.ca567de6.png": "/2104_wearcoord-front/static/media/chitosesports_10043147.ca567de6.png",
     "static/media/App.css": "/2104_wearcoord-front/static/media/mannequin_done3.1efadd8e.png"
   },
   "entrypoints": [
@@ -23,6 +27,6 @@
     "static/css/2.0c97cfcb.chunk.css",
     "static/js/2.51c852f6.chunk.js",
     "static/css/main.4459a69a.chunk.css",
-    "static/js/main.5a292468.chunk.js"
+    "static/js/main.4dbd3ea4.chunk.js"
   ]
 }
