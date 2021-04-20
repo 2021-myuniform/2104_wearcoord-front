@@ -7,11 +7,21 @@
   max-width: 400px;
   background-position-x: 47%;
   background-image: url('./img/mannequin_done3.png');
+  position: relative;
 }
 
 #controller{
   width: 500px;
   left: -70px;
+  position: absolute;
+  top: 60px;
+}
+
+#controller2{
+  width: 500px;
+  left: -70px;
+  position: absolute;
+  top: 180px;
 }
 
 .wearLi{
@@ -19,5 +29,28 @@
 }
 
 .wearImg{
+  width: 150px;
+}
+
+.coordTops{
+  position: absolute;
+  top: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.coordPants{
+  position: absolute;
+  top: 180px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.df{
+  display: flex;
+  flex-direction: column;
+}
+
+.df a{
   width: 100%;
 }
