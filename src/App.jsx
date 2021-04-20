@@ -15,15 +15,15 @@ function App() {
         <div>
           <div className='mannequinImg'>
           <Route 
-        exact path="/"
+        exact path="2104_wearcoord-front/"
         component={Mycoord}
         ></Route>
           <Route 
-        path="/changeTops"
+        path="2104_wearcoord-front/changeTops"
         component={Imgswiper}
         ></Route>
           <Route 
-        path="/changePants"
+        path="2104_wearcoord-front/changePants"
         component={Imgswiperpants}
         ></Route>
           </div>
@@ -32,13 +32,13 @@ function App() {
 
       <div className="df">
         <Link
-        to="/"
+        to="2104_wearcoord-front/"
         >my coord</Link>
         <Link
-        to="/changeTops"
+        to="2104_wearcoord-front/changeTops"
         >changetops</Link>
         <Link
-        to="/changePants"
+        to="2104_wearcoord-front/changePants"
         >changepants</Link>
       </div>
     </BrowserRouter>
