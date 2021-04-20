@@ -6,12 +6,12 @@ import 'swiper/swiper-bundle.css';
 import '../App.css';
 
 import Img1 from '../img/chitosesports-b_10016758.png';
-import Img2 from '../img/chitosesports-b_10016758.png';
-import Img3 from '../img/chitosesports-b_10016758.png';
+import Img2 from '../img/chitosesports_10043147.png';
+import Img3 from '../img/chitosesports-b_10020639.png';
 
 import Img4 from '../img/pants/aozoraya-sp_10142639.png';
-import Img5 from '../img/pants/aozoraya-sp_10142639.png';
-import Img6 from '../img/pants/aozoraya-sp_10142639.png';
+import Img5 from '../img/pants/chitosesports_10030744gray.png';
+import Img6 from '../img/pants/chitosesports_10030745.png';
 
 function Allchange() {
 
@@ -87,14 +87,14 @@ function Allchange() {
       </SwiperSlide>
         <SwiperSlide key='2' tag="li" className="wearLi">
         <img
-          src={Img4}
+          src={Img5}
           style={{ listStyle: 'none' }}
           className="wearImg"
         />
       </SwiperSlide>
         <SwiperSlide key='3' tag="li" className="wearLi">
         <img
-          src={Img4}
+          src={Img6}
           style={{ listStyle: 'none' }}
           className="wearImg"
         />
@@ -108,14 +108,14 @@ function Allchange() {
       </SwiperSlide>
         <SwiperSlide key='2' tag="li" className="wearLi">
         <img
-          src={Img4}
+          src={Img5}
           style={{ listStyle: 'none' }}
           className="wearImg"
         />
       </SwiperSlide>
         <SwiperSlide key='3' tag="li" className="wearLi">
         <img
-          src={Img4}
+          src={Img6}
           style={{ listStyle: 'none' }}
           className="wearImg"
         />
