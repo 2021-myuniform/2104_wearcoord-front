@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter, Route, Link } from "react-router-dom";
 import './App.css';
+import Allchange from "./components/Allchange";
 import Imgswiper from "./components/ImgSwiper";
 import Imgswiperpants from "./components/ImgSwiperPants";
 import Mycoord from "./components/Mycoord";
@@ -28,6 +29,15 @@ function App() {
         ></Route>
           </div>
         </div>
+
+        <div>
+          <div className='mannequinImg'>
+          <Route 
+        path="/2104_wearcoord-front/allchange"
+        component={Allchange}
+        ></Route>
+          </div>
+        </div>
       </div>
 
       <div className="df">
@@ -40,6 +50,9 @@ function App() {
         <Link
         to="/2104_wearcoord-front/changePants"
         >changepants</Link>
+        <Link
+        to="/2104_wearcoord-front/allchange"
+        >allchange</Link>
       </div>
     </BrowserRouter>
   );
