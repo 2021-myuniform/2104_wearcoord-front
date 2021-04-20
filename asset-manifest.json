@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/2104_wearcoord-front/static/css/main.4459a69a.chunk.css",
-    "main.js": "/2104_wearcoord-front/static/js/main.d3a2d3d6.chunk.js",
-    "main.js.map": "/2104_wearcoord-front/static/js/main.d3a2d3d6.chunk.js.map",
+    "main.js": "/2104_wearcoord-front/static/js/main.46588143.chunk.js",
+    "main.js.map": "/2104_wearcoord-front/static/js/main.46588143.chunk.js.map",
     "runtime-main.js": "/2104_wearcoord-front/static/js/runtime-main.0318c308.js",
     "runtime-main.js.map": "/2104_wearcoord-front/static/js/runtime-main.0318c308.js.map",
     "static/css/2.0c97cfcb.chunk.css": "/2104_wearcoord-front/static/css/2.0c97cfcb.chunk.css",
@@ -23,6 +23,6 @@
     "static/css/2.0c97cfcb.chunk.css",
     "static/js/2.c2e3ab14.chunk.js",
     "static/css/main.4459a69a.chunk.css",
-    "static/js/main.d3a2d3d6.chunk.js"
+    "static/js/main.46588143.chunk.js"
   ]
 }
