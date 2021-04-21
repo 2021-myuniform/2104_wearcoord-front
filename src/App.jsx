@@ -6,6 +6,7 @@ import Imgswiper from "./components/ImgSwiper";
 import Imgswiperpants from "./components/ImgSwiperPants";
 import Mycoord from "./components/Mycoord";
 import Page1 from "./components/Page1";
+import Test from "./components/Test";
 
 function App() {
   return (
@@ -53,7 +54,15 @@ function App() {
         <Link
         to="/2104_wearcoord-front/allchange"
         >allchange</Link>
+        <Link
+        to="/2104_wearcoord-front/test"
+        >test</Link>
       </div>
+
+      <Route 
+        path="/2104_wearcoord-front/test"
+        component={Test}
+        ></Route>
     </BrowserRouter>
   );
 }

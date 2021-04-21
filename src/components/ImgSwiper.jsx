@@ -20,13 +20,32 @@ function Imgswiper() {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
   const [controlledSwiper, setControlledSwiper] = useState(null);
 
+//   function ActionLink() {
+//   function clickButton(e){
+//     e.preventDefault();
+//     console.log(e.target.getBoundingClientRect().top);//←ブラウザ上のx,y位置を取得したい
+//     console.log(e.clientX,e.clientY);//←マウス座標は取得できている
+//   }
+// }
+
+function handleClick(e) {
+  e.preventDefault();
+  console.log('The link was clicked.');
+      console.log(e.target.getBoundingClientRect().left);//←ブラウザ上のx,y位置を取得したい
+
+}
+
   return (
     <React.Fragment>
       <Swiper id="controller" onSwiper={setControlledSwiper}
       slidesPerView={3}
       // spaceBetween={250}
       >
-        <SwiperSlide key='1' tag="li" className="wearLi">
+        <SwiperSlide key='1' tag="a" className="wearLi"
+        >
+          <button  onClick={handleClick}>
+          button
+          </button>
         <img
           src={Img1}
           style={{ listStyle: 'none' }}
@@ -34,6 +53,9 @@ function Imgswiper() {
         />
       </SwiperSlide>
         <SwiperSlide key='2' tag="li" className="wearLi">
+        <button  onClick={handleClick}>
+          button
+          </button>
         <img
           src={Img2}
           style={{ listStyle: 'none' }}
@@ -41,6 +63,9 @@ function Imgswiper() {
         />
       </SwiperSlide>
         <SwiperSlide key='3' tag="li" className="wearLi">
+        <button  onClick={handleClick}>
+          button
+          </button>
         <img
           src={Img3}
           style={{ listStyle: 'none' }}
